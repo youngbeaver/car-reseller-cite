@@ -2,15 +2,30 @@
   position: fixed;
   color: #000;
   background-color: #57a30a;
+  height: 10px;
   font-family: Jomhuria;
-  font-size: 128px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 9.6px;
 }
 
+.number {
+  height: 10px;
+}
+
+.number_information {
+  height: 10px;
+}
+
 .header {
+  position: fixed;
   background: #57a30a;
   height: 4vw;
+  width: 100%;
+}
+
+.header button {
+  height: 10px;
 }

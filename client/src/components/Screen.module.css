@@ -1,0 +1,17 @@
+.img {
+  height: 45.36vw;
+}
+
+.stroke {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 21px;
+  border: 4px solid #fff;
+  box-shadow: 0px 0px 37px 5px #fff;
+  width: 1635px;
+  height: 582px;
+}
+
+.stroke p {
+  position: absolute;
+}
