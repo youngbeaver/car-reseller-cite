@@ -1,5 +1,6 @@
 import React from "react";
-import Toolbar from "./ui/Toolbar.jsx";
+import Toolbar from "./ui/toolbar/Toolbar.jsx";
+import Information from "./ui/information-block/Information.jsx";
 import styles from "./Screen.module.css";
 
 const Screen = () => {
@@ -20,36 +21,41 @@ const Screen = () => {
       <p className={styles.p_timely}>Своевременная консультация</p>
       <p className={styles.p_meticulousness}>Дотошность к каждой мелочи</p>
       <p className={styles.p_carry}>Готовность нести ответственность за свою работу</p>
-      <div className={styles.feedback_first}>
-        <img src="" alt="" />
-        <p>Mazda 3 2008 г.</p>
-        <img src="" alt="" />
-        <p>Отзыв</p>
-        <div>
-          <p>Долго искал и т.д.</p>
+
+      <div className={styles.feedback_block}>
+        <div className={styles.feedback_first}>
+          <img className={styles.feedback_img} src={process.env.PUBLIC_URL + "img/feedback/mazda.png"} alt="" />
+          <p className={styles.car_information}>Mazda 3 2008 г.</p>
+          <img className={styles.feedback_avatar} src={process.env.PUBLIC_URL + "img/avatar/feedback.png"} alt="" />
+          <p>Отзыв</p>
+          <div className={styles.feedback_div}>
+            <p>Долго искал и т.д.</p>
+          </div>
+        </div>
+        <div className={styles.feedback_second}>
+          <img className={styles.feedback_img} src={process.env.PUBLIC_URL + "img/feedback/mazda.png"} alt="" />
+          <p>Mazda 3 2008 г.</p>
+          <img className={styles.feedback_avatar} src={process.env.PUBLIC_URL + "img/avatar/feedback.png"} alt="" />
+          <p>Отзыв</p>
+          <div className={styles.feedback_div}>
+            <p>Долго искал и т.д.</p>
+          </div>
+        </div>
+        <div className={styles.feedback_third}>
+          <img className={styles.feedback_img} src={process.env.PUBLIC_URL + "img/feedback/mazda.png"} alt="" />
+          <p>Mazda 3 2008 г.</p>
+          <img className={styles.feedback_avatar} src={process.env.PUBLIC_URL + "img/avatar/feedback.png"} alt="" />
+          <p>Отзыв</p>
+          <div className={styles.feedback_div}>
+            <p>Долго искал и т.д.</p>
+          </div>
         </div>
       </div>
-      <div className={styles.feedback_second}>
-        <img src="" alt="" />
-        <p>Mazda 3 2008 г.</p>
-        <img src="" alt="" />
-        <p>Отзыв</p>
-        <div>
-          <p>Долго искал и т.д.</p>
-        </div>
-      </div>
-      <div className={styles.feedback_third}>
-        <img src="" alt="" />
-        <p>Mazda 3 2008 г.</p>
-        <img src="" alt="" />
-        <p>Отзыв</p>
-        <div>
-          <p>Долго искал и т.д.</p>
-        </div>
-      </div>
-      <div>
-        <div></div>
-      </div>
+
+      <Information></Information>
+      <button>
+        <p>Оставить заявку для консультации</p>
+      </button>
       <div className={styles.bottom}>
         <p className={styles.p_bottom}>
           Сайт является местом содержания краткой информации о услугах Иванова Ивана Ивановича и не содержит полной информации.

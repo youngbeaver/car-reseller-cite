@@ -134,3 +134,49 @@
   border-top: 1px solid #000;
   background: #57a30a;
 }
+
+.feedback_block p {
+  position: absolute;
+  background: white;
+  color: #000;
+}
+
+.feedback_img {
+  width: 22.5vw;
+  height: 9.43vw;
+  border-radius: 1.93vw 1.93vw 0px 0px;
+}
+
+.car_information {
+  left: 0.68vw;
+  top: 10.1vw;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feedback_avatar {
+  position: absolute;
+  width: 6.3vw;
+  height: 6.3vw;
+  left: 15.21vw;
+  top: 10.05vw;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.feedback_div {
+  position: absolute;
+  width: 20.36vw;
+  height: 9.69vw;
+  left: 1.09vw;
+  top: 18.8vw;
+  border-radius: 27px;
+  border: 1px solid #000;
+  background-color: white;
+}
