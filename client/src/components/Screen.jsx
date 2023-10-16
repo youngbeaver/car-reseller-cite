@@ -1,7 +1,6 @@
 import React from "react";
 import Toolbar from "./ui/Toolbar.jsx";
 import styles from "./Screen.module.css";
-import vesta from "./vesta.png";
 
 const Screen = () => {
   return (
@@ -12,16 +11,16 @@ const Screen = () => {
           <p className={styles.stroke_header}>Автоподбор - </p>
           <p className={styles.stroke_fulltext}>Это сложный механизм</p>
         </div>
-        <img className={styles.img} src={vesta} alt="" />
+        <img className={styles.img} src={process.env.PUBLIC_URL + "img/header/vesta.png"} alt="" />
       </div>
       <p className={styles.quality}>Что такое качество?</p>
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <p>Своевременная консультация</p>
-      <p>Дотошность к каждой мелочи</p>
-      <p>Готовность нести ответственность за свою работу</p>
-      <div>
+      <img className={styles.svg_support} src={process.env.PUBLIC_URL + "img/svg/support.svg"} alt="" />
+      <img className={styles.svg_meticulousness} src={process.env.PUBLIC_URL + "img/svg/meticulousness.svg"} alt="" />
+      <img className={styles.svg_carry} src={process.env.PUBLIC_URL + "img/svg/carry.svg"} alt="" />
+      <p className={styles.p_timely}>Своевременная консультация</p>
+      <p className={styles.p_meticulousness}>Дотошность к каждой мелочи</p>
+      <p className={styles.p_carry}>Готовность нести ответственность за свою работу</p>
+      <div className={styles.feedback_first}>
         <img src="" alt="" />
         <p>Mazda 3 2008 г.</p>
         <img src="" alt="" />
@@ -30,7 +29,7 @@ const Screen = () => {
           <p>Долго искал и т.д.</p>
         </div>
       </div>
-      <div>
+      <div className={styles.feedback_second}>
         <img src="" alt="" />
         <p>Mazda 3 2008 г.</p>
         <img src="" alt="" />
@@ -39,7 +38,7 @@ const Screen = () => {
           <p>Долго искал и т.д.</p>
         </div>
       </div>
-      <div>
+      <div className={styles.feedback_third}>
         <img src="" alt="" />
         <p>Mazda 3 2008 г.</p>
         <img src="" alt="" />
@@ -50,6 +49,13 @@ const Screen = () => {
       </div>
       <div>
         <div></div>
+      </div>
+      <div className={styles.bottom}>
+        <p className={styles.p_bottom}>
+          Сайт является местом содержания краткой информации о услугах Иванова Ивана Ивановича и не содержит полной информации.
+          Для консультации вы сможете уточнить по номеру - +7 (999) 999-99-99
+        </p>
+        <p>При обнаружении проблем с сайтом сообщайте по почте - gmail@gmail.com</p>
       </div>
     </div>
   );
