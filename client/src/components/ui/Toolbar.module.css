@@ -1,0 +1,16 @@
+.name {
+  position: fixed;
+  color: #000;
+  background-color: #57a30a;
+  font-family: Jomhuria;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 9.6px;
+}
+
+.header {
+  background: #57a30a;
+  height: 4vw;
+}
