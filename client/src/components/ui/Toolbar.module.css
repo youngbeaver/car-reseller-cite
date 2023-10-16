@@ -9,14 +9,21 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 9.6px;
+  left: 1.41vw;
 }
 
 .number {
+  position: absolute;
   height: 10px;
+  left: 31.56vw;
+  top: 1.46vw;
 }
 
 .number_information {
-  height: 10px;
+  position: absolute;
+  height: 0;
+  left: 27.68vw;
+  top: 2.23vw;
 }
 
 .header {
@@ -28,4 +35,22 @@
 
 .header button {
   height: 10px;
+  border: 0px;
+  position: absolute;
+}
+
+.services {
+  left: 56.61vw;
+}
+
+.about_me {
+  left: 66.3vw;
+}
+
+.guarantees {
+  left: 77.86vw;
+}
+
+.contacts {
+  left: 90.05vw;
 }

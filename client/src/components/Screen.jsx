@@ -9,12 +9,12 @@ const Screen = () => {
       <Toolbar />
       <div>
         <div className={styles.stroke}>
-          <p>Автоподбор - </p>
-          <p>Это сложный механизм</p>
+          <p className={styles.stroke_header}>Автоподбор - </p>
+          <p className={styles.stroke_fulltext}>Это сложный механизм</p>
         </div>
         <img className={styles.img} src={vesta} alt="" />
       </div>
-      <p>Что такое качество?</p>
+      <p className={styles.quality}>Что такое качество?</p>
       <img src="" alt="" />
       <img src="" alt="" />
       <img src="" alt="" />
