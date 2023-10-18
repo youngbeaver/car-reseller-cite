@@ -152,7 +152,7 @@
   top: 10.1vw;
   color: #000;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -179,4 +179,27 @@
   border-radius: 27px;
   border: 1px solid #000;
   background-color: white;
+}
+
+.feedback_text {
+  position: absolute;
+  top: 0.57vw;
+  left: 0.8vw;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feedback {
+  top: 17.29vw;
+  left: 9.79vw;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

@@ -3,7 +3,6 @@
   color: #000;
   background-color: #57a30a;
   height: 10px;
-  font-family: Jomhuria;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -16,7 +15,9 @@
   position: absolute;
   height: 10px;
   left: 31.56vw;
-  top: 1.46vw;
+  top: 1.35vw;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .number_information {
@@ -24,6 +25,8 @@
   height: 0;
   left: 27.68vw;
   top: 2.23vw;
+  font-size: 14px;
+  font-style: normal;
 }
 
 .header {
@@ -35,9 +38,17 @@
 }
 
 .header button {
-  height: 10px;
+  height: 50px;
+  padding-bottom: 50px;
+  top: 0.5vw;
   border: 0px;
   position: absolute;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.header button:hover {
+  box-shadow: 0px 2px 0 0 black;
 }
 
 .services {
