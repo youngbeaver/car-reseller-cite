@@ -22,7 +22,7 @@ const Screen = () => {
         <img className={styles.svg_carry} src={process.env.PUBLIC_URL + "img/svg/carry.svg"} alt="" />
         <p className={styles.p_timely}>Своевременная консультация</p>
         <p className={styles.p_meticulousness}>Дотошность к каждой мелочи</p>
-        <p className={styles.p_carry}>Готовность нести ответственность за свою работу</p>
+        <p className={styles.p_carry}>Готовность нести ответственность; за свою работу</p>
 
         <div className={styles.feedback_block}>
           <div className={styles.feedback_first}>

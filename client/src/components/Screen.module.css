@@ -77,20 +77,23 @@
 
 .p_timely {
   position: absolute;
-  left: 15.05vw;
-  top: 70.31vw;
+  left: 16.05vw;
+  top: 67.31vw;
+  font-size: 20px;
 }
 
 .p_meticulousness {
   position: absolute;
-  left: 41.04vw;
-  top: 70.31vw;
+  left: 42.04vw;
+  top: 67.31vw;
+  font-size: 20px;
 }
 
 .p_carry {
   position: absolute;
-  left: 66.98vw;
-  top: 70.31vw;
+  left: 64.98vw;
+  top: 67.31vw;
+  font-size: 20px;
 }
 
 .feedback_first {
